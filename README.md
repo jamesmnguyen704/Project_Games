@@ -25,10 +25,8 @@ from scipy import stats
 ### 3.1 Reading CSV File: Load your video game sales dataset.
 games = pd.read_csv(r'C:\Users\James\Project_games\games.csv')
 ### 3.2 Overview of the Dataset: Display the first few rows, shape, and data types. Provide a brief description of each column.
-
 ## 4. Data Pre-Processing
 ### 4.1. Handling Missing Values and Data Types: Address missing values, convert data types, and deal with 'TBD' values.
-
 ### 4.2. Adding New Columns: Calculate total sales for each game.
 ## 5. Data Analysis
 ### 5.1 Game Release Trends
