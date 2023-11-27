@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-games = pd.read_csv(r'C:\Users\James\Project_games\games.csv')
+games = pd.read_csv('games.csv')
 
 st.header('Video Game Sales Analysis')
 
